@@ -211,5 +211,6 @@
 	"azureMcp.serverMode": "all",
 	"azureMcp.readOnly": true,
 	"chat.tools.terminal.outputLocation": "none",
-	"debug.breakpointsView.presentation": "tree"
+	"debug.breakpointsView.presentation": "tree",
+	"github.copilot.nextEditSuggestions.enabled": true
 }
