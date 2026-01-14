@@ -899,6 +899,7 @@ export default tseslint.config(
 					],
 					'verbs': [
 						'accept',
+						'archive',
 						'change',
 						'close',
 						'collapse',
@@ -1932,6 +1933,13 @@ export default tseslint.config(
 						'@vscode/*',
 						'@parcel/*',
 						'@playwright/*',
+						'*' // node modules
+					]
+				},
+				{
+					'target': 'test/sanity/**',
+					'restrictions': [
+						'test/sanity/**',
 						'*' // node modules
 					]
 				},
